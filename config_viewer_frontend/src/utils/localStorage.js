@@ -1,4 +1,4 @@
-export default ls = {
+const ls = {
     get: (key) => {
         return localStorage.getItem(key);
     },
@@ -6,3 +6,5 @@ export default ls = {
         localStorage.setItem(key, value);
     }
 }
+
+export default ls;

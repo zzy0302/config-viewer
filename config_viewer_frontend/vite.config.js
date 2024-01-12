@@ -8,7 +8,6 @@ export default defineConfig({
     outDir: "./dist",
     emptyOutDir: true,
     rollupOptions: {
-      external: ["./utils/localStorage.js"]
     }
   },
   plugins: [vue()],

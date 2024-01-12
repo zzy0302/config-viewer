@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import ls from ".utils/localStorage.js"
+import ls from "./utils/localStorage.js"
 const snrcode_root_folder = ref(ls.get('snrcode_root_folder') || '')
 </script>
 
