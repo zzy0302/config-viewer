@@ -1,0 +1,56 @@
+# Vite
+node_modules/
+dist/
+build/
+.cache/
+public/
+
+# Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Dependency management
+pip-selfcheck.json
+venv/
+env/
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.out
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.manifest
+*.spec
+
+# Miscellaneous
+*.swp
+*~
+.DS_Store
+Thumbs.db
