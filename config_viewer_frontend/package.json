@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host=0.0.0.0 --port=5001",
     "build": "vite build",
     "preview": "vite preview",
     "localdev": "pnpm run serve",
-    "serve": "concurrently \"flask run\" \"pnpm run dev\""
+    "serve": "concurrently \"flask --debug --app ../main.py run --host=0.0.0.0\" \"pnpm run dev\""
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {
