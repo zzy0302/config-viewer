@@ -7,7 +7,7 @@ import requests
 app = Flask(__name__)
 
 flask_debug = app.config['DEBUG']
-debug_pnpm = False
+debug_pnpm = True
 if (flask_debug and debug_pnpm):
     @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')

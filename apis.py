@@ -6,4 +6,4 @@ apis_bp = Blueprint('apis', __name__)
 # a: https://stackoverflow.com/questions/1944569/how-do-i-import-modules-in-flask
 @apis_bp.route('/add/')
 def addone():
-    return add(2,3)
+    return "1233"
